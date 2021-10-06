@@ -1,2 +1,2 @@
-# vvnovitsky.github.io
-мой хостинг
+# internetmag
+obuchenie sozdaniyu IM
