@@ -1,0 +1,45 @@
+:root{
+--black: #222222;
+}
+
+body{
+    background: pink
+    ;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.header{
+background-color: var(--black);
+
+
+}
+
+.header__container{
+    display: flex;
+    align-items: center;
+    min-height: 75px;
+    justify-content: space-between;
+}
+
+.header__menu{
+    display: none;
+}
+
+.header__box{
+    display: flex;
+}
+
+.header__logo{
+    margin-right: 41px;
+}
+
+.header__ico{
+    margin-left: 33px;
+}
+
+.header__button{
+    border: none;
+    background-color: transparent;
+}

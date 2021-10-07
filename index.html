@@ -6,81 +6,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header>
-        <img src="./img/lodo.svg" alt="logo">
-        <img src="./img/loupe.svg" alt="loupe">
-        <button type="button"><img src="./img/burger.svg" alt="menu"></button>
-        <a href="#"><img src="./img/person.svg" alt="registration">link</a>
-        <a href="#"><img src="./img/basket.svg" alt="basket">link</a>
-        <nav>
-            <h2>menu</h2>
-            <ul>
-                <li>
-                    <h3>man</h3>
-                    <ul>
-                        <li>Accessories</li>
-                        <li>Bags</li>
-                        <li>Denim</li>
-                        <li>T-Shirts</li>
-                    </ul>
-                </li>
-                <li>
-                    <h3>woman</h3>
-                    <ul>
-                        <li>Accessories</li>
-                        <li>Jackets & Coats</li>
-                        <li>Polos</li>
-                        <li>T-Shirts</li>
-                        <li>Shirts</li>
-                    </ul>
-                </li>
-                <li>
-                    <h3>kids</h3>
-                    <ul>
-                        <li>Accessories</li>
-                        <li>Jackets & Coats</li>
-                        <li>Polos</li>
-                        <li>T-Shirts</li>
-                        <li>Shirts</li>
-                        <li>Bags</li>
-                    </ul>
-                </li>
-            </ul>
-            <button type="button"><img src="./img/close.svg" alt="close"></button>
-        </nav>
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__box">
+                <img class="header__logo" src="./img/lodo.svg" alt="logo" width="44" height="38">
+                <img class="header__search" src="./img/loupe.svg" alt="loupe" width="26" height="28">
+            </div>
+            <div class="header__box">
+                <button class="header__button header__ico" type="button"><img src="./img/burger.svg" alt="menu"
+                        width="32" height="23"></button>
+                <a class="header__ico" href="#"><img src="./img/person.svg" alt="registration" width="29"
+                        height="29"></a>
+                <a class="header__ico" href="#"><img src="./img/basket.svg" alt="basket"></a>
+            </div>
+            <nav class="header__menu">
+                <h2 class="header__title">menu</h2>
+                <ul class="header__menu-list">
+                    <li class="header__menu-item menu-sub-item">
+                        <h3 class="menu-sub-item__title">man</h3>
+                        <ul class="menu-sub-item__list">
+                            <li class="menu-sub-item__item">Accessories</li>
+                            <li class="menu-sub-item__item">Bags</li>
+                            <li class="menu-sub-item__item">Denim</li>
+                            <li class="menu-sub-item__item">T-Shirts</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>woman</h3>
+                        <ul>
+                            <li class="menu-sub-item__item">Accessories</li>
+                            <li class="menu-sub-item__item">Jackets & Coats</li>
+                            <li class="menu-sub-item__item">Polos</li>
+                            <li class="menu-sub-item__item">T-Shirts</li>
+                            <li class="menu-sub-item__item">Shirts</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>kids</h3>
+                        <ul>
+                            <li class="menu-sub-item__item">Accessories</li>
+                            <li class="menu-sub-item__item">Jackets & Coats</li>
+                            <li class="menu-sub-item__item">Polos</li>
+                            <li class="menu-sub-item__item">T-Shirts</li>
+                            <li class="menu-sub-item__item">Shirts</li>
+                            <li class="menu-sub-item__item">Bags</li>
+                        </ul>
+                    </li>
+                </ul>
+                <button type="button"><img src="./img/close.svg" alt="close"></button>
+            </nav>
+        </div>
     </header>
     <main>
-        <section>
-            <img src="./img/manbrend.jpg" alt="brend">
-            <h1>THE BRAND
+        <section class="hero">
+            <img class="hero__img" src="./img/manbrend.jpg" alt="brand">
+            <h1 class="hero__title">THE BRAND
                 OF LUXERIOUS FASHION
             </h1>
         </section>
-        <section>
-            <h2>Sale</h2>
-            <ul>
-                <li>
-                    <a href="#"></a>
-                    <p>30% OFF</p>
-                    <h3>for women</h3>
+        <section class="sale">
+            <h2 class="sale__title">Sale</h2>
+            <ul class="sale__list">
+                <li class="sale__item">
+                    <a class="sale__link" href="#"></a>
+                    <p class="sale__text">30% off</p>
+                    <h3 class="sale__subtitle">for women</h3>
                 </li>
-                <li><a href="#"></a>
-                    <p>hot detal</p>
-                    <h3>for men</h3>
+                <li class="sale__item">
+                    <a class="sale__link" href="#"></a>
+                    <p class="sale__text">hot detal</p>
+                    <h3 class="sale__subtitle">for men</h3>
                 </li>
-                <li><a href="#"></a>
-                    <p>new arrivals
+                <li class="sale__item">
+                    <a class="sale__link" href="#"></a>
+                    <p class="sale__text">new arrivals
                     </p>
-                    <h3>for kids</h3>
+                    <h3 class="sale__subtitle">for kids</h3>
                 </li>
-                <li><a href="#"></a>
-                    <p>luxirous & trendy
+                <li class="sale__item">
+                    <a class="sale__link" href="#"></a>
+                    <p class="sale__text">luxirous & trendy
                     </p>
-                    <h3>accesories</h3>
+                    <h3 class="sale__subtitle">accesories</h3>
                 </li>
             </ul>
         </section>
